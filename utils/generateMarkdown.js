@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
   if (license) {
     return `## license 
     
-    `;
+ `;
   }
 
   else {
@@ -53,26 +53,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-//   return `# ${data.title}
-
-//     ## Description
-
-//     ${data.description}
-
-//     ## Installation
-
-//     ${data.installation}
-
-//     ## Usage
-
-//     ${data.usage}
-
-//     ## Credits
-
-//     ${data.credits}  
-
-//     ${renderLicenseSection(data.license)}${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
-// `;
 return `# ${data.title}
 
 ## Description
@@ -91,7 +71,7 @@ ${data.usage}
 
 ${data.credits}
 
-${renderLicenseSection(data.license)}${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
 `;
 }
 
