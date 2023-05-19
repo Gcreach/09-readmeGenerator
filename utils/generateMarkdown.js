@@ -71,7 +71,7 @@ ${data.usage}
 
 ${data.credits}
 
-${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 `;
 }
 

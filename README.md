@@ -1,4 +1,4 @@
-# readMe Generator
+# ReadMe Generator
 
 ## Description
 
@@ -10,7 +10,9 @@ Download the files to your computer, then in the terminal do the comman "npm i" 
 
 ## Usage
 
-Open the terminal and type "node index" then type out your response to each prompt. The README will then be created automatically
+Open the terminal and type "node index" then type out your response to each prompt. The README will then be created automatically.
+
+![Generator video](./assets/demo.webm)
 
 ## Credits
 
@@ -18,4 +20,4 @@ Grant Creach
 
 ## license 
     
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
