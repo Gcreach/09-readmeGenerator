@@ -55,6 +55,19 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 return `# ${data.title}
 
+# Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+This application is licensed by ${data.license}
+
+
 ## Description
 
 ${data.description}
@@ -71,7 +84,16 @@ ${data.usage}
 
 ${data.credits}
 
-${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+## Tests 
+
+${data.tests}
+
+## Questions 
+
+If you have any questions, reach out to me using the following:
+
+Email: ${data.email}
+GitHub: ${data.github}
 `;
 }
 

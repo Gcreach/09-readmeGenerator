@@ -30,6 +30,21 @@ const questions = [
             type: 'input',
         },
         {
+            name: 'tests',
+            message: 'Are there any special tests required?',
+            type: 'input',
+        },
+        {
+            name: "email",
+            message: "Enter your email",
+            type: 'input'
+        },
+        {
+            name: 'github',
+            message: 'Enter your GitHub username',
+            type: 'input'
+        },
+        {
             name: 'license',
             message: 'What is the license?',
             choices: ['MIT', 'ISC', 'IBM'],
