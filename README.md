@@ -1,4 +1,4 @@
-# ReadMe Generator
+# readme generator
 
 # Table of Contents
 - [Description](#description)
@@ -17,23 +17,25 @@ This application is licensed by MIT
 
 ## Description
 
-this
+This app allows you to instantly create a readme
 
 ## Installation
 
-that
+Download from github then open up the project and the terminal then execute the command npm i
 
 ## Usage
 
-something
+execute the command node index and you will answer prompts. The readme will be created after you answer all of the questions
+
+![Demo video](./assets/TH.PNG)(https://drive.google.com/file/d/1C6AGTrLF-64T1yh1htS3mqjWZC_2r7ms/view)
 
 ## Credits
 
-me
+Grant Creach
 
 ## Tests 
 
-No
+No, there are no special tests required
 
 ## Questions 
 
